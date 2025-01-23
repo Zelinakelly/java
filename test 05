@@ -1,0 +1,79 @@
+import java.util.Queue;
+import java.util.Scanner;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+        // to see how IntelliJ IDEA suggests fixing it.
+        System.out.println(" Zelina teste 04");
+
+// Exercicio 01//
+
+        System.out.println("Ola Mundo");
+
+
+ // Exercicio 02//
+
+        int soma;
+        int num1;
+        int num2;
+
+        num1=02;
+        num2=10;
+
+        soma=num1+num2;
+
+        System.out.println(soma);
+
+
+// Exercicio 03//
+
+        int base;
+        int altura;
+        double area;
+
+
+        Scanner Scanner = new Scanner(System.in);
+
+        System.out.println("Digite o base do retangulo: ");
+        base = Scanner.nextInt();
+        System.out.println("Digite o altura do retangulo: ");
+        altura = Scanner.nextInt();
+        area=base*altura;
+        System.out.println("area do retangulo:   "+ area);
+
+
+// Exercicio 04//
+
+
+int numero1;
+int numero2;
+int numero3;
+int media;
+
+        Scanner Scanner2 = new Scanner(System.in);
+
+        System.out.println("Digite o primeiro numero: ");
+        numero1 = Scanner2.nextInt();
+        System.out.println("Digite o segundo numero: ");
+        numero2 = Scanner2.nextInt();
+        System.out.println("Digite o terceiro numero: ");
+        numero3 = Scanner2.nextInt();
+        media=(numero1+numero2+numero3) /3;
+        System.out.println("media do retangulo: "+media);
+
+// EXERCICIO 05//
+
+        int metros;
+        int centimetro;
+        int valor;
+
+
+        Scanner Scanner3 = new Scanner(System.in);
+        System.out.println("Digite o metro : ");
+        metros = Scanner3.nextInt();
+
+        valor=(metros*100);
+        System.out.println("valor de metros em centimetros é: "+valor);
