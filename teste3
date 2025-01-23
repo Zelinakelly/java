@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+        // to see how IntelliJ IDEA suggests fixing it.
+
+
+        int a;
+        int b;
+        int soma;
+        int div;
+        String nome;
+        int multiplicacao;
+        int subtracao;
+
+
+
+
+        Scanner Scanner = new Scanner(System.in);
+
+
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("Digite o primeiro numero");
+        a = scanner.nextInt();
+        System.out.println("Digite o segundo numero");
+        System.out.println();
+        b = scanner.nextInt();
+
+        soma = a + b;
+        multiplicacao = a * b;
+        subtracao = a - b;
+        div = a / b;
+
+       System.out.println("O resultado da soma é   " + soma);
+       System.out.println("O Resultado da subtração é   " + subtracao);
+       System.out.println("O resultado da multiplicação é   " + multiplicacao);
+       System.out.println("O resultado da div é   " + div);
+
+
+
+
+    }
+}
