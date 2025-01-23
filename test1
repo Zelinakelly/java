@@ -1,0 +1,35 @@
+//import java.sql.SQLOutput;
+//import java.util.Scanner;
+//
+////TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+//// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+//public class Main {
+//    public static void main(String[] args) {
+//        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+//        // to see how IntelliJ IDEA suggests fixing it.
+//        System.out.println("Oi Zelina!");
+//        System.out.println("Moro em Curvelo");
+//
+//
+//
+//
+//        int a;
+        int b;
+        int soma;
+        int div;
+        int modulo;
+
+         a=2;
+         b=10;
+
+         soma=a+b;
+         div=a/b;
+         modulo=a%b;
+
+        System.out.println(soma);
+        System.out.println(div);
+        System.out.println(modulo);
+        
+
+        }
+}
