@@ -1,1 +1,99 @@
+import java.util.Scanner;
 
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+        // to see how IntelliJ IDEA suggests fixing it.
+        System.out.println("Zelina!");
+
+        // EXERCICIO 06//
+
+        int perimetro;
+        int lado;
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Digite o valor do lado ");
+        lado=sc.nextInt();
+        perimetro=lado*4;
+        System.out.println("valor do lado do perimetro é: "+perimetro);
+
+        // Exercicio 07//
+
+
+
+
+
+        // Exercicio 08//
+
+        double volume;
+        int aresta;
+
+
+        Scanner sc2 = new Scanner(System.in);
+        System.out.println("Digite o valor do volume ");
+        volume= sc2.nextInt();
+        System.out.println("Digite o valor da aresta ");
+        aresta=sc2.nextInt();
+
+        volume = Math.pow(aresta ,3);
+
+
+        System.out.println("O volume é: "+volume);
+
+
+        // Exercicio 09//
+
+        int distancia;
+        int tempo;
+        int velocidade;
+
+
+        Scanner sc3 = new Scanner(System.in);
+        System.out.println("Digite o valor do distancia ");
+        distancia=sc3.nextInt();
+        System.out.println("Digite o valor do tempo ");
+        tempo=sc3.nextInt();
+
+         velocidade=distancia/tempo;
+
+        System.out.println("A velocidade media é: "+velocidade);
+
+
+        //Exercicio 10 //
+
+        double real;
+        double dolar;
+
+
+        System.out.println("Digite o valor do real ");
+        real=sc2.nextDouble();
+
+        dolar=real/5.92;
+
+
+         System.out.println("o valor da conversao em dolar é: " +dolar);
+
+         
+        Scanner sc4 = new Scanner(System.in);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
