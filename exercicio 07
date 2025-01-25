@@ -81,6 +81,17 @@ public class Main {
 
         // Exercicio 06 //
 
+        int numero1;
+        int numero2;
+
+        numero1=10;
+        numero2=5;
+
+        double diferenca = Math.abs(numero1 - numero2);
+        diferenca = Math.abs(diferenca);
+
+
+        System.out.println("o Valor da Diferença é : " + diferenca);
 
         
 
