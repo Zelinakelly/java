@@ -93,6 +93,23 @@ public class Main {
 
         System.out.println("o Valor da Diferença é : " + diferenca);
 
+
+
+ // Exercicio 07//
+
+        double baseMaior;
+        double baseMenor;
+        double altura;
+
+        baseMaior=8.0;
+       baseMenor=5.0;
+       altura=4.0;
+
+       area=baseMaior+baseMenor*altura/2;
+
+       System.out.println("A área do Trapézio é: " + area);
+
+
         
 
 
