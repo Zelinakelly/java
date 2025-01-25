@@ -1,0 +1,93 @@
+import java.util.Scanner;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+        // to see how IntelliJ IDEA suggests fixing it.
+        System.out.println(" Zelina");
+
+        // Exercicio 01//
+
+        double base;
+        double altura;
+
+
+        base = 10.5;
+        altura = 5.2;
+
+        double area;
+        area = base * altura / 2;
+        area = base * altura / 2;
+
+        int areaArredonda = (int) area;
+
+        Math.round(area);
+
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("A área  é: " + areaArredonda);
+
+        // Exercicio 02 //
+
+        double cateto1;
+        double cateto2;
+
+        cateto1 = 3.0;
+        cateto2 = 4.0;
+
+        double hipotenusa = Math.sqrt(Math.pow(cateto1, 2) + Math.pow(cateto2, 2));
+        System.out.println("Hipotenusa: " + hipotenusa);
+
+        // Exercicio 03 //
+
+        double raio;
+
+
+        raio = 5.0;
+
+
+
+        double volume =   4 * Math.PI * Math.pow(raio,3) /(3);
+
+        
+        System.out.println(" O Volume da esfera é: " + volume);
+
+
+        // Exercicio 04//
+
+        double x1;
+        double y1;
+        double x2;
+        double y2;
+
+        x1 = 1.0;
+        y1 = 2.0;
+        x2 = 4.0;
+        y2 = 6.0;
+
+
+        double distancia = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+
+        System.out.println("A distancia é  " +distancia);
+
+
+        // Exercicio 05//
+
+
+
+
+        // Exercicio 06 //
+
+
+        
+
+
+
+
+
+
+    }
+}
