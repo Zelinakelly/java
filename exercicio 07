@@ -99,13 +99,13 @@ public class Main {
 
         double baseMaior;
         double baseMenor;
-        double altura;
+        double altura1;
 
         baseMaior=8.0;
        baseMenor=5.0;
-       altura=4.0;
+       altura1=4.0;
 
-       area=baseMaior+baseMenor*altura/2;
+       area=baseMaior+baseMenor*altura1/2;
 
        System.out.println("A área do Trapézio é: " + area);
 
