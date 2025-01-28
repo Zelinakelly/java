@@ -1,0 +1,49 @@
+import java.util.Scanner;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+        // to see how IntelliJ IDEA suggests fixing it.
+        System.out.println("zelina!");
+
+        //exercicio 01//
+
+        Scanner Sc = new Scanner(System.in);
+        int numero;
+
+        System.out.println("Digite um numero inteiro: ");
+        numero = Sc.nextInt();
+
+        if (numero % 2 == 0) {
+            System.out.println("par");
+
+        }
+
+        else {
+            System.out.println("impar");
+        }
+
+        //Exercicio 2/ /
+
+        int nunero1;
+
+
+        System.out.println("Digite um numero: ");
+        nunero1 = Sc.nextInt();
+
+        if (nunero1 == 0) {
+            System.out.println("o numero é zero");
+        }
+
+        if (nunero1 >0){
+            System.out.println("o numero é positivo");
+}
+        if (nunero1<0){
+            System.out.println("O numero é negativo");}
+
+
+
+}
+}
